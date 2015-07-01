@@ -451,12 +451,26 @@ footer {
     /*line-height: 20px;*/ }
   .navbar .navbar-right {
     float: right;
+<<<<<<< HEAD
     margin-top: 16px;
     /*margin-right: -50px;*/ }
   .navbar ul {
     list-style: none; }
     .navbar ul .navbar-nav a {
       color: #9d9d9d; }
+=======
+    margin-top: 0px;
+    padding: 15px 150px;
+    /*margin-right: -50px;*/ }
+    .navbar .navbar-right li {
+      list-style-type: none; }
+  .navbar nav {
+    /*padding-left: 0;*/
+    /*margin-bottom: 0;*/
+    /*list-style: none;*/ }
+  .navbar ul.navbar-nav a {
+    color: #9d9d9d; }
+>>>>>>> master
   .navbar.navbar-inverse {
     background: #444444; }
     .navbar.navbar-inverse a {
@@ -839,3 +853,136 @@ textarea.form-control {
     float: left;
     padding: 0 15px;
     width: 100%; } }
+
+/*@media (max-width: 1000px) {
+  .col-md-1 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-2 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-3 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-4 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-5 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-6 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-7 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-8 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-9 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-10 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-11 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-md-12 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .navbar .navbar-right {
+    margin-top: 0px;
+    float: right;
+    padding: 15px 50px 0px 50px; } }
+
+@media (max-width: 700px) {
+  .col-sm-1 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-2 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-3 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-4 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-5 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-6 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-7 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-8 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-9 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-10 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-11 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .col-sm-12 {
+    float: left;
+    padding: 0, 15px;
+    width: 100%; }
+  .container {
+    text-align: center; }
+  ul {
+    list-style-type: none; }
+  li {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .section.lead {
+    padding-top: 50px; }
+  .navbar {
+    height: 100px; }
+    .navbar .navbar-brand {
+      display: inline-block;
+      margin: auto;
+      padding: 10px 25vw 0 25vw;
+      clear: both; }
+    .navbar .navbar-right {
+      display: inline-block;
+      margin: auto;
+      padding: 10px 37vw 0 37vw;
+      float: left;
+      clear: both; }
+  .page-header {
+    padding: 10px; }
+  form .form-group {
+    width: 100%;
+    float: left;
+    clear: both;
+    display: block; } }*/
