@@ -58,7 +58,7 @@ footer {
     color: #9d9d9d;
     margin-top: 16px;
     /*height: 50px;*/
-    padding: 15px 150px;
+    // padding: 15px 150px;
     font-size: 18px;
     /*line-height: 20px;*/
     
@@ -66,6 +66,9 @@ footer {
 
   .navbar-right {
     float: right;
+    // margin-top: 16px;
+    // padding:15px 150px;
+
     margin-top: 0px;
     padding:15px 150px;
     /*margin-right: -50px;*/
@@ -74,14 +77,12 @@ footer {
     }
   }
 
-  nav {
-    /*padding-left: 0;*/
-    /*margin-bottom: 0;*/
-    /*list-style: none;*/
-  }
+  ul{
+    list-style:none;
 
-  ul.navbar-nav a{
-    color: #9d9d9d;
+    .navbar-nav a {
+      color: #9d9d9d;
+    }
   }
 
   &.navbar-inverse {
@@ -140,9 +141,9 @@ footer {
 }
 
 @for $n from 1 through 12{
-  .col-lg-#{$n}{
+  .col-lg-#{$n} {
     float: left;
-    padding: 0, 15px;
+    padding: 0 15px;
     width: percentage($n/12);
   }
 }
@@ -177,33 +178,32 @@ footer {
   padding:0 15px;
 }*/
 
-.img-responsive{
+.img-responsive {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.section-colored{
+.section-colored {
   padding:100px;
 }
 
-.text-center{
+.text-center {
   text-align:center;
 }
 
-.page-header{
+.page-header {
   margin:40px 0 20px;
   color:black;
- border-bottom: 2px solid #eee;
- padding-bottom: 9px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 9px;
 }
 
-small{
+small {
   color:gray;
 }
 
 .breadcrumb{
   padding:8px 15px;
-
   list-style:none;
   background-color:#f5f5f5;
   border-radius: 4px;
@@ -223,21 +223,21 @@ small{
   content:"/\00a0";
 }
 
-.col-sm-8{
-  width:66.666667%;
-  float:left;
-  position:relative;
-  padding:0 15px;
-  min-height: 1px;
-}
+// .col-sm-8{
+//   width:66.666667%;
+//   float:left;
+//   position:relative;
+//   padding:0 15px;
+//   min-height: 1px;
+// }
 
-.col-sm-4{
-width:33.3333333%;
-  float:left;
-  position:relative;
-  padding:0 15px;
-  min-height: 1px;
-}
+// .col-sm-4{
+// width:33.3333333%;
+//   float:left;
+//   position:relative;
+//   padding:0 15px;
+//   min-height: 1px;
+// }
 
 form{
   display: block;
@@ -316,4 +316,9 @@ textarea.form-control{
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 @import 'media-queries';
+
+=======
+@import 'media-queries';
+>>>>>>> master
