@@ -438,39 +438,22 @@ footer {
       text-decoration: underline; }
   .navbar .navbar-header {
     float: left;
-    margin-top: 16px;
-    /*margin-right: 0;*/
-    /*margin-left: 0;*/ }
+    margin-top: 16px; }
   .navbar .navbar-brand {
-    /*float: left;*/
     font-weight: bold;
     color: #9d9d9d;
     margin-top: 16px;
-    /*height: 50px;*/
-    font-size: 18px;
-    /*line-height: 20px;*/ }
+    font-size: 18px; }
   .navbar .navbar-right {
     float: right;
-<<<<<<< HEAD
-    margin-top: 16px;
-    /*margin-right: -50px;*/ }
+    margin-top: 0px;
+    padding: 15px 150px; }
+    .navbar .navbar-right li {
+      list-style-type: none; }
   .navbar ul {
     list-style: none; }
     .navbar ul .navbar-nav a {
       color: #9d9d9d; }
-=======
-    margin-top: 0px;
-    padding: 15px 150px;
-    /*margin-right: -50px;*/ }
-    .navbar .navbar-right li {
-      list-style-type: none; }
-  .navbar nav {
-    /*padding-left: 0;*/
-    /*margin-bottom: 0;*/
-    /*list-style: none;*/ }
-  .navbar ul.navbar-nav a {
-    color: #9d9d9d; }
->>>>>>> master
   .navbar.navbar-inverse {
     background: #444444; }
     .navbar.navbar-inverse a {
@@ -492,12 +475,9 @@ footer {
   &.navbar-inverse {}
 }*/
 .container {
-  /*width: 1170px;*/
   padding: 0 5%;
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-  /*width:100%;*/
-  /*clear: both;*/ }
+  margin-left: auto;
+  margin-right: auto; }
 
 .row {
   /*overflow work too*/ }
@@ -508,92 +488,67 @@ footer {
 
 .col-lg-1 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 8.33333%; }
 
 .col-lg-2 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 16.66667%; }
 
 .col-lg-3 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 25%; }
 
 .col-lg-4 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 33.33333%; }
 
 .col-lg-5 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 41.66667%; }
 
 .col-lg-6 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 50%; }
 
 .col-lg-7 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 58.33333%; }
 
 .col-lg-8 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 66.66667%; }
 
 .col-lg-9 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 75%; }
 
 .col-lg-10 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 83.33333%; }
 
 .col-lg-11 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 91.66667%; }
 
 .col-lg-12 {
   float: left;
-  padding: 0, 15px;
+  padding: 0 15px;
   width: 100%; }
 
-/*
-.col-lg-12 { 
-  width: 100%;
-  padding:0 15px;
-}*/
 .section.lead {
-  /*margin-top: -50px;
-  margin-left: -50px;
-  margin-right: -50px;*/
   padding-top: 0; }
 
-/*
-.col-lg-4 {
-  width: 33.33333333%;
-  float:left;
-  position: relative;
-
-  padding:0 15px;
-}*/
-/*
-.col-lg-6{
-  width: 50%;
-  float: left;
-  display: inline-block;
-
-  position: relative;
-  padding:0 15px;
-}*/
 .img-responsive {
   width: 100%;
   margin-bottom: 10px; }
@@ -629,6 +584,20 @@ small {
   padding: 0 5px;
   color: #ccc;
   content: "/\00a0"; }
+
+.col-sm-8 {
+  width: 66.66667%;
+  float: left;
+  position: relative;
+  padding: 0 15px;
+  min-height: 1px; }
+
+.col-sm-4 {
+  width: 33.33333%;
+  float: left;
+  position: relative;
+  padding: 0 15px;
+  min-height: 1px; }
 
 form {
   display: block; }
@@ -695,294 +664,161 @@ textarea.form-control {
 .icon-2x {
   size: 2em; }
 
-/*must have*/
 * {
   box-sizing: border-box; }
 
+/*must have*/
 .container {
   width: 90%;
   margin-right: auto;
   margin-left: auto; }
 
-@media (min-width: 400px) {
+@media (min-width: 768px) {
   .col-sm-1 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 8.33333%; }
   .col-sm-2 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 16.66667%; }
   .col-sm-3 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 25%; }
   .col-sm-4 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 33.33333%; }
   .col-sm-5 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 41.66667%; }
   .col-sm-6 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 50%; }
   .col-sm-7 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 58.33333%; }
   .col-sm-8 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 66.66667%; }
   .col-sm-9 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 75%; }
   .col-sm-10 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 83.33333%; }
   .col-sm-11 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 91.66667%; }
   .col-sm-12 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 100%; } }
 
-@media (min-width: 800px) {
+@media (min-width: 992px) {
   .col-md-1 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 8.33333%; }
   .col-md-2 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 16.66667%; }
   .col-md-3 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 25%; }
   .col-md-4 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 33.33333%; }
   .col-md-5 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 41.66667%; }
   .col-md-6 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 50%; }
   .col-md-7 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 58.33333%; }
   .col-md-8 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 66.66667%; }
   .col-md-9 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 75%; }
   .col-md-10 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 83.33333%; }
   .col-md-11 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 91.66667%; }
   .col-md-12 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 100%; } }
 
 @media (min-width: 1200px) {
   .col-lg-1 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 8.33333%; }
   .col-lg-2 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 16.66667%; }
   .col-lg-3 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 25%; }
   .col-lg-4 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 33.33333%; }
   .col-lg-5 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 41.66667%; }
   .col-lg-6 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 50%; }
   .col-lg-7 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 58.33333%; }
   .col-lg-8 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 66.66667%; }
   .col-lg-9 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 75%; }
   .col-lg-10 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 83.33333%; }
   .col-lg-11 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 91.66667%; }
   .col-lg-12 {
     float: left;
-    padding: 0 15px;
+    padding: 0 2%;
     width: 100%; } }
-
-/*@media (max-width: 1000px) {
-  .col-md-1 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-2 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-3 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-4 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-5 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-6 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-7 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-8 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-9 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-10 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-11 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-md-12 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .navbar .navbar-right {
-    margin-top: 0px;
-    float: right;
-    padding: 15px 50px 0px 50px; } }
-
-@media (max-width: 700px) {
-  .col-sm-1 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-2 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-3 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-4 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-5 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-6 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-7 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-8 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-9 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-10 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-11 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .col-sm-12 {
-    float: left;
-    padding: 0, 15px;
-    width: 100%; }
-  .container {
-    text-align: center; }
-  ul {
-    list-style-type: none; }
-  li {
-    padding-top: 5px;
-    padding-bottom: 5px; }
-  .section.lead {
-    padding-top: 50px; }
-  .navbar {
-    height: 100px; }
-    .navbar .navbar-brand {
-      display: inline-block;
-      margin: auto;
-      padding: 10px 25vw 0 25vw;
-      clear: both; }
-    .navbar .navbar-right {
-      display: inline-block;
-      margin: auto;
-      padding: 10px 37vw 0 37vw;
-      float: left;
-      clear: both; }
-  .page-header {
-    padding: 10px; }
-  form .form-group {
-    width: 100%;
-    float: left;
-    clear: both;
-    display: block; } }*/

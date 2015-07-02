@@ -1,114 +1,115 @@
-
 .container {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
 }
 
-@media(min-width:400px) {
-  @for $n from 1 through 12{
-    .col-sm-#{$n}{
-      float: left;
-      padding: 0 15px;
-      width: percentage($n/12);
+$cols: 12;
+// // can remove max-width condition is order is from smallest to largest
+// @mixin media-column($category, $min-width) {
+//   @media (min-width: $min-width){
+//     @for $n from 1 through $cols {
+//       .col-#{$category}-#{$n} {
+//         float: left;
+//         padding: 0 2%;
+//         width: percentage($n/$cols);
+//       }
+//     }
+//   }
+// }
+
+// @include media-column(sm, 768px);
+// @include media-column(md, 992px);
+// @include media-column(lg, 1200px);
+
+
+$map: (sm: 768px, md: 992px, lg: 1200px);
+
+@each $category, $min-width in $map {
+  @media (min-width: $min-width) {
+    @for $n from 1 through $cols {
+      .col-#{$category}-#{$n} {
+        float: left;
+        padding: 0 2%;
+        width: percentage($n/$cols);
+      }
     }
   }
 }
 
-@media(min-width:800px) {
-    @for $n from 1 through 12{
-    .col-md-#{$n}{
-      float: left;
-      padding: 0 15px;
-      width: percentage($n/12);
-    }
-  }
-}
+// @media (max-width: 1000px){
 
-@media(min-width:1200px) {
-    @for $n from 1 through 12{
-    .col-lg-#{$n}{
-      float: left;
-      padding: 0 15px;
-      width: percentage($n/12);
-    }
-  }
-}
+//   @for $n from 1 through 12{
+//     .col-md-#{$n}{
+//       float: left;
+//       padding: 0, 15px;
+//       width: percentage($n/$n);
+//     }
+//   }
 
-/* @media (max-width: 1000px){
+//   .navbar{
+//     .navbar-right{
+//       margin-top: 0px;
+//       float:right;
+//       padding: 15px 50px 0px 50px;
+//     }
+//   }
+// }
 
-	@for $n from 1 through 12{
-	  .col-md-#{$n}{
-	    float: left;
-	    padding: 0, 15px;
-	    width: percentage($n/$n);
-	  }
-	}
+// @media (max-width: 700px){
 
-	.navbar{
-		.navbar-right{
-			margin-top: 0px;
-			float:right;
-			padding: 15px 50px 0px 50px;
-		}
-	}
-}
+//   @for $n from 1 through 12{
+//     .col-sm-#{$n}{
+//       float: left;
+//       padding: 0, 15px;
+//       width: percentage($n/$n);
+//     }
+//   }
 
-@media (max-width: 700px){
+//   .container{
+//     text-align: center;
+//   }
+//   ul{
+//     list-style-type: none;
+//   }
+//   li{
+//     padding-top: 5px;
+//     padding-bottom: 5px;
+//   }
 
-	@for $n from 1 through 12{
-	  .col-sm-#{$n}{
-	    float: left;
-	    padding: 0, 15px;
-	    width: percentage($n/$n);
-	  }
-	}
+//   .section.lead{
+//     padding-top:50px
+//   }
 
-	.container{
-		text-align: center;
-	}
-	ul{
-		list-style-type: none;
-	}
-	li{
-		padding-top: 5px;
-		padding-bottom: 5px;
-	}
+//   .navbar{
+//     height: 100px;
+//     .navbar-brand{
+//       display: inline-block;
+//       margin: auto;
+//       padding: 10px 25vw 0 25vw;
+//       clear: both;
+//     }
 
-	.section.lead{
-		padding-top:50px
-	}
+//     .navbar-right{
+//       display: inline-block;
+//       margin: auto;
+//       padding: 10px 37vw 0 37vw;
+//       float: left;
+//       clear: both;
+//     }
+//   }
 
-	.navbar{
-		height: 100px;
-		.navbar-brand{
-			display: inline-block;
-			margin: auto;
-			padding: 10px 25vw 0 25vw;
-			clear: both;
-		}
+//   .page-header{
+//     padding: 10px;
+//   }
 
-		.navbar-right{
-			display: inline-block;
-			margin: auto;
-			padding: 10px 37vw 0 37vw;
-			float: left;
-			clear: both;
-		}
-	}
+//   form{
 
-	.page-header{
-		padding: 10px;
-	}
-
-	form{
-
-		.form-group{
-			width: 100%;
-			float: left;
-			clear: both;
-			display: block;
-		}
-	}
-
-} */
+//     .form-group{
+//       width: 100%;
+//       float: left;
+//       clear: both;
+//       display: block;
+//     }
+//   }
+// } 
